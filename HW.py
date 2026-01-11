@@ -1,4 +1,3 @@
-day = int(input("Enter the day you were born") )
-month = input("Enter the month you were born")
-year = int(input("Enter the year you were born"))
-print("Your birthday is on" , day , month, year)
+import calendar
+for month in range(1 , 13):
+    print(calendar.month(2026 , month))
